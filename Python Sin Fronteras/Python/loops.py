@@ -66,10 +66,3 @@ for ninja in ninjas:
     for edad in edades:
         print(ninja, edad)   #va a imprimir cada ninja con cada edad posible antes de volver a imprimir al siguiente ninja
     
-    
-    
-    
-    
-
-    
-    

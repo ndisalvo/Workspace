@@ -37,17 +37,3 @@ def concatenandoNombres(listaNombres):
 
 nombres_a_imprimir = concatenandoNombres(['Mimo', 'Kira'])
 print(nombres_a_imprimir)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
