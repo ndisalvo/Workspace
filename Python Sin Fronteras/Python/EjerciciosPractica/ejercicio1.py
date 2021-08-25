@@ -1,6 +1,4 @@
 #multiplicar dos numeros sin usar el signo de multiplicacion
-from os import name
-
 
 num1 = 2
 num2 = 4
