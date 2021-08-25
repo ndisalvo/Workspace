@@ -23,4 +23,4 @@ c.write('\nagregando linea al archivo con Python') #al añadir cosas nos va a ti
 
 
 #al finalizar de leer y/o modificar un archivo la buena costumbre es cerrarlo, como? de la siguiente manera:
-c.close()    
+c.close()   
