@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Formulario </title>
+    </head>
+
+    <body>
+        <form> <!-- creando un formulario -->
+            <fieldset> <!-- nos permite encerrar el formulario en una "caja" para que sea mas ordenado -->
+                <legend> Datos personales </legend> <!-- escribir sobre la parte superior del <fieldset> -->
+                <label> Edad </label> <input type="number" placeholder="Ingrese edad..."> <br />
+                <label"> constraseña </label> <input type="password" placeholder="Ingrese contraseña..."> <br />
+                <label> Correo electronico </label> <input type="text" placeholder="Ingrese correo electronico..."> <br />
+                <!-- <input type="submit" value="Aceptar"> <br /> -->
+                <textarea> </textarea> <br /> <!-- sirve para añadir un cuadro de texto -->
+                <!-- <button> Hola Mundo </button> <br /> -->
+            
+                <select>
+                    <option value="naruto"> Naruto </option>
+                    <option value="sasuke"> Sasuke </option>
+                    <option value="sakura"> Sakura </option>
+                </select> <br /> <br />
+            
+                <input type="submit"> <br />
+            </fieldset>    
+        </form>
+    </body>
+
+</html>
+
+<!-- Anotaciones:
+    en las etiquetas de <input> al agregar el type="" nosotros le decimos que valores va a aceptar,
+    en caso de que sea una constraseña, veremos lo ingresado con los famosos dots negros,
+    en caso de que sea texto basta con poner "text" y actuara de manera normal,
+    en caso de poner "number" solo admitira numeros y estos podran ir incrementando o disminuyendo,
+    en caso de que sea de tipo "submit" este creara un boton con el cual podremos enviar la informacion del form
+
+    si queremos cambiar el valor del boton de submit, podemos agregar una propiedad mas la cual es value="",
+    y de esa forma el texto ingresado entre las "" pasara a estar dentro del boton
+
+    al momento de utilizar la etiqueta <select> nosotros tenemos que poner las opciones que apareceran,
+    al momento de pasarle el value="" deberemos ponerlo en minusculas, pero entre las etiquetas en mayuscula,
+    ya que al enviar los datos del form al servidor, se enviaran de la forma que esten escritos en el value=""
+
+    la etiqueta <label> sirve para poner antes de <input> para que el usuario sepa que poner en el form,
+    la propiedad <placeholder> es para que tambien el usuario sepa bien que ingresar en los inputs    
+    
+    
+-->
