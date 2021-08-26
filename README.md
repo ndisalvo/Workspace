@@ -1,2 +1,2 @@
-Mi progreso en el curso Python Sin Fronteras de Udemy! Dentro de cada carpeta podras ver los archivos con los cuales 
-practique y anotaciones hechas sobre cada modulo 
+Mi progreso en los cursos de Udemy! Dentro de cada carpeta podras ver los archivos con los cuales 
+practique y anotaciones hechas sobre cada curso y sus respectivos modulos 
