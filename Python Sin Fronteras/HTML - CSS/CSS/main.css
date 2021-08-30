@@ -1,0 +1,11 @@
+body {
+    background-color: #bebea5; /* color de fondo */
+}
+
+.helloWorld { /* clases -> se pueden repetir */
+    color: #ff0000; /* color de letras*/
+}
+
+#goodbyeWorld { /* id's -> son unicos */
+    color: #042442; /* color de letras*/
+}
