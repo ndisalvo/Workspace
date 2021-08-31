@@ -1,0 +1,52 @@
+.primerDiv {
+    color: #222fff;
+    text-align: center;
+}
+
+.segundoDiv {
+    color: #ff00d4;
+    text-align: justify; /* esto nos permitira escribir como "diario" es decir mismos margenes para todo el texto */
+    text-indent: 50px; /* la primer linea del texto se desplaza a la derecha */
+}
+
+.googleLink {
+    text-decoration: none; /* de esta forma sacamos el subrayado de los enlaces de las etiquetas <a> */
+    text-transform: uppercase; /* pone todo el texto en mayuscula */
+    letter-spacing: 3px; /* genera una separacion entre cada una de las letras */
+    
+}
+
+.googleLink2 {
+    text-decoration: overline; /* de esta forma ponemos la linea arriba en vez de abajo */
+    text-transform: lowercase; /* pone todo el texto en minuscula */
+}
+
+.googleLink3 {
+    text-decoration: line-through; /* tacha el texto */
+    text-transform: capitalize; /* pone la primer letra en mayuscula */
+    
+}
+
+.p {
+    line-height: 1.7px; /* aumenta la separacion entre renglones */
+    word-spacing: 10px;
+    text-shadow: 2px 2px #222fff;     
+}
+
+.p2 {
+    font-family: "Monaco"; /* cambiamos la fuente de las letras */
+    font-style: italic; /* cambiamos el estilo, en este caso, a cursiva */  
+    /* font-size: 40px; cambiamos el tamaño de la letra. Podemos hacer asi o sino como abajo*/
+    font-size: 2em;
+    font-weight: bold; /* cambia el ancho de letra, se puede usar tambien numeros del 100 al 900, de 100 en 100 */
+    
+    
+}
+
+
+/* 
+anotaciones: 
+text-shadow: genera un efecto 3D, el primer valor es cuanto se va a desplazar la palabra a la deracha, el segundo cuanto se va a desplazar para 
+arriba y el tercer valor va a determinar cuan difuminado va a estar el texto 
+
+*/

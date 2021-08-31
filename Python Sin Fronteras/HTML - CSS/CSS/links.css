@@ -1,0 +1,26 @@
+body {
+    background-color: #eee;
+}
+
+.linkToGoogle {
+    color: hotpink;
+    background-color: #f00; /* esto pintara el fondo como si fuera un div */
+}
+
+.linkToGoogle:link { /* cambia el color del link */
+    color: blue;
+    text-decoration: none;
+}
+
+.linkToGoogle:visited { /* cambia el color del link una vez ya fue visitado */
+    color: red;
+}
+
+.linkToGoogle:hover {
+    color: black;
+    text-decoration: underline; /* cuando pasemos el mouse se subrayara */
+}
+
+.linkToGoogle:active { /* cambia el color del link mientras mantengamos apretado el click */
+    color: seagreen;
+}
