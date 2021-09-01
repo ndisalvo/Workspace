@@ -1,0 +1,28 @@
+body {
+    background-color: #eee;
+}
+
+table {
+    width: 100%;;
+    background-color: #ccc;
+    border-collapse: collapse; /* Permite eliminar los bordes de la tabla */
+}
+
+tr:nth-child(even) { /* con esto seleccionamos una linea de la tabla y no todas */
+    background-color: #f2f2f2;
+}
+
+table th {
+    background-color: #4caf60;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #fff;
+}
+
+td {
+    border: solid 1px #ddd;
+    padding: 8px;
+}

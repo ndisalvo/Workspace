@@ -1,0 +1,38 @@
+body {
+    background-color: #eee;
+}
+
+ul {
+    background-color: #fff;
+    list-style-type: none;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px; /* eliminamos el padding existente de la parte izquierda */
+}
+
+li {
+    padding: 5px;
+    border-bottom: solid 1px #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+ul li {
+     list-style-type: circle;  modifica el circulo de una <ul> 
+}
+
+*/
