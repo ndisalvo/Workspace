@@ -1,0 +1,42 @@
+body {
+    background-color: #eee;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #0090ff;
+    padding: 1em;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.dropdown-contenido {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-contenido a{
+    color: #000;
+    padding: 12px 16px; /* primer valor arriba, segundo valor abajo*/
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-contenido a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-button {  /*esto hace referencia a que, cuando pasemos el mouse por la lista, cambiara solo en el boton*/
+    background-color: #0778cf;
+}

@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* añade un color mas oscuro y transparente*/
+}

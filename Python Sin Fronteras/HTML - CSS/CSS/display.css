@@ -1,0 +1,61 @@
+body {
+    background-color: #eee;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.th_thead {
+    background-color: #0090ff;
+    padding: 8px;
+    color: #fff;
+}
+
+.inline {
+    background-color: #fff;
+    text-align: center;
+}
+
+.bloque {
+    background-color: #fff;
+    text-align: center;
+}
+
+.noneElements {
+    color: rgba(238, 238, 238, 0);
+    background-color: #fff;
+}
+
+.inline, .bloque, .noneElements {
+    border: solid 1px #eee;
+    border-top: 0px;
+}
+
+/* con display: none -> se vuelve invisible
+   podemos pasar de bloque a inline con el display: block/inline;
+   con position: fixed; hacemos que ese elemento quede estatico en la pantalla sin moverse, a pesar de que el contenido que no es fixed si se mueva
+   con opacity: 0-1; podemos poner la imagen transparente, 0 completamente transparente y 1 completamente solido
+*/
+
+
+.overflowDiv {
+    background-color: #0090ff;
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px #000;
+    border-radius: 3px;
+}
+
+.hiddenOverflow {
+    max-width: 150px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.scrollOverflow {
+    background-color: #fff;
+    max-width: 250px;
+    height: 150px;
+    overflow: scroll;
+}
